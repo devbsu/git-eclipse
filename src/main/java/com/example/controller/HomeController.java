@@ -12,6 +12,7 @@ public class HomeController {
 	@GetMapping("/")
 	public String index() {
 		log.info("충돌1");
+		log.info("충돌2");
 		return "index";
 	}
 
